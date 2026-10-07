@@ -1,13 +1,23 @@
 # ncaasoftball
 Analysis of the factors associated with winning in 2026 NCAA Division I softball using Python.
-# What Drives Winning in NCAA Division I Softball?
-An analysis of the relationship between offensive, pitching, and defensive performance and team success during the 2026 NCAA Division I softball season.
+
+## Motivation
+
+My passion for physics and astronomy is bested by only one thing: my passion for softball. As I transition away from playing and more to coaching, I have begun examining winning in a different light. I wanted my first independent analytics project to explore a question that could eventually be expanded and potentially inform my own approach to softball while relying on skills I've learnt over the past 4 years of my undergraduate degree. 
+
+Prior to the analysis, I expected defensive performance to have a meaningful relationship with winning. I was particularly interested in whether incremental improvements in defense were associated with meaningful differences in team success, rather than simply whether good defensive teams tended to be good teams overall. NCAA Division I softball provided a useful starting point because team-level statistics were readily available across a large number of teams, allowing these questions to be explored across the division rather than through individual examples.
+
+
+## Research Question
+
+How are offensive, defensive, and pitching performance associated with winning percentages in D1 Softball?
+What role does defensive performance play in team success?
 
 ## Project Overview
 
 Winning in softball requires contributions from offense, pitching, and defense, but those parts of the game may not relate to team success equally.
 This project uses team-level NCAA Division I softball statistics to investigate which measures of team performance are most strongly associated with winning percentage and how offensive, pitching, and defensive performance work together in explaining team success.
-The analysis was completed in Python using pandas, Matplotlib, and statsmodels.
+The analysis was completed in Python using pandas, numpy, Matplotlib, and statsmodels.
 
 ## Questions
 
@@ -88,4 +98,4 @@ Future work could incorporate multiple seasons, strength-of-schedule adjustments
 ## Repository Contents
 
 - `softball_analysis.ipynb` — complete data cleaning, exploratory analysis, statistical modeling, and visualizations
-- `data/` — cleaned team-level dataset used in the analysis
+- `data/` — raw and cleaned team-level dataset used in the analysis
